@@ -5,16 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubComponent } from './github/github.component';
 import { StrikethroughDirective } from './strikethrough.directive';
-import { Pipe } from '../.pipe';
 import { GithubSearchPipe } from './github-search.pipe';
+import { GithubFormComponent } from './github-form/github-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubComponent,
     StrikethroughDirective,
-    Pipe,
-    GithubSearchPipe
+    GithubSearchPipe,
+    GithubFormComponent
   ],
   imports: [
     BrowserModule,
