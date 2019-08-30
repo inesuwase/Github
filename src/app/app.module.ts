@@ -9,6 +9,9 @@ import { GithubSearchPipe } from './github-search.pipe';
 import { GithubFormComponent } from './github-form/github-form.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { UserComponent } from './user/user.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { UserComponent } from './user/user.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

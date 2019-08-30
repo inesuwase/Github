@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
+import { HttpClient } from '@angular/common/http';
 import { GithubRequestService } from '../github-request.service';
 
 @Component({

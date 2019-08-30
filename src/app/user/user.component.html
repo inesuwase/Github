@@ -1,6 +1,16 @@
+<div class="container">
 <div class ="row">
-  <p>Username{{user.login}}</p>
-  <p>Names{{user.name}}</p>
-  <p>profile{{user.avatar_url}}</p>
-  <p>Repositories{{user.repositories}}</p>
+    <div class="col-md-6">
+        <div><label for="profile">profile:</label></div>
+
+        <img src="{{user.avatar_url}}" alt="" width="300">
+    </div>
+<div>
+  <p>Username:{{user.login}}</p>
+  <p>Names:{{user.name}}</p>
+  <!-- <p>profile{{user.avatar_url}}</p> -->
+  <p>Repositories:{{user.repositories}}</p>
+  <p>Created at:{{user.created_at|date}}</p>
+</div>
+</div>
 </div>
