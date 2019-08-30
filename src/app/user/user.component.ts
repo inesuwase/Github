@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { User } from '../user';
+import { GithubRequestService } from '../github-request.service';
 
 @Component({
   selector: 'app-user',
@@ -8,13 +9,11 @@ import { User } from '../user';
 })
 export class UserComponent implements OnInit {
    user: User;
-  constructor(private githubRequestService: GithubRequestService) {
-    this.githubRequestService = githubRequestService;
-   }
-
-  ngOnInit() {
-    this.githubRequestService.githubRequest()
-    this.user = this.githubRequestService.user
-  }
-
+constructor(private githubRequestService: GithubRequestService) {
+  this.githubRequestService = githubRequestService;
+}
+ngOnInit() {
+  this.githubRequestService.githubRequest()
+  this.user = this.githubRequestService.user
+}
 }
