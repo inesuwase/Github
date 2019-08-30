@@ -8,6 +8,7 @@ import { StrikethroughDirective } from './strikethrough.directive';
 import { GithubSearchPipe } from './github-search.pipe';
 import { GithubFormComponent } from './github-form/github-form.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
     StrikethroughDirective,
     GithubSearchPipe,
     GithubFormComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
