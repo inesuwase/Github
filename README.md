@@ -1,7 +1,29 @@
+# Quotes
+designed by Uwase Ines
+## Usage
+This is a website where users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
+## Description
+ users may enter a GitHub username into a form, submit it, and see names and descriptions of that person's public repositories. A person can also look for repositories
+### Behavior Drive Development
+1.The user is able to enter a GitHub username into a form.
+
+2.The user is able to submit it.
+
+3.The user is able to  see names and descriptions of that person's public repositories.
+
+4.The user is able to look for repositories.
+
+### Technologies
+Angular CLI
+HTML 
+Javascript 
+CSS 
+jQuery
+bootstrap
+
 # GithubSearch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
-## 
 
 ## Development server
 
@@ -26,3 +48,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### CONTACT Details
+phone number: +250781104953 E-mail: uwaseines7@gmail.com
+
+### License
+Copyright (c) 2019 Ines Uwase
+
